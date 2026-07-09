@@ -1,0 +1,6 @@
+{
+  "name": "Centro de Control SGI",
+  "description": "Plataforma interactiva para la gestión emocional de procesos en el Sistema de Gestión Integrado HSEQ.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

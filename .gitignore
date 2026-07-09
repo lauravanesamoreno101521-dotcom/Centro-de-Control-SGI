@@ -1,0 +1,23 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Carpetas fuente de imágenes (ya están en public/images/emotions)
+ALEGRIA/
+CALMA/
+DESAGRADO/
+FURIA/
+NOSTALGIA/
+Nueva carpeta/
+Nueva Carpeta/
+
+# Imágenes sueltas en raíz (copias; versiones finales en public/)
+*.jpeg
+*.jpg
+*.png
+!public/**
