@@ -91,6 +91,7 @@ export interface EmotionalProfile {
       childhood?: string;
       team?: string;
       secondary?: string;
+      mascotas?: string;
     };
   };
   logs: ProfileLog[];

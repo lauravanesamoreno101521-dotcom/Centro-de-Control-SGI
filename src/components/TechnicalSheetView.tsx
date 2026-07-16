@@ -184,7 +184,7 @@ function buildGallerySlides(profile: EmotionalProfile, colorHex: string): Galler
     slides.push({
       kind: "mascotas",
       src: profile.pets.imageUrl,
-      title: "Mis mascotas",
+      title: labels.mascotas ?? "Mis mascotas",
       aspect: "landscape",
       borderColor: `${colorHex}40`,
       titleColor: colorHex,
@@ -458,49 +458,49 @@ export default function TechnicalSheetView({ profile }: TechnicalSheetViewProps)
               <div className="text-center px-2">
                 <Sparkles className="h-4 w-4 mx-auto mb-1" style={{ color: c }} />
                 <p className="text-[9px] font-mono uppercase text-slate-500 mb-1">Anécdota</p>
-                <p className="text-[10px] text-slate-200 leading-snug">{sheet.sobreMi.anecdota}</p>
+                <p className="text-sm text-slate-200 leading-snug">{sheet.sobreMi.anecdota}</p>
               </div>
             )}
             {sheet.sobreMi.colorFavorito && (
               <div className="text-center px-2">
                 <Palette className="h-4 w-4 mx-auto mb-1" style={{ color: c }} />
                 <p className="text-[9px] font-mono uppercase text-slate-500 mb-1">Color</p>
-                <p className="text-[10px] text-slate-200">{sheet.sobreMi.colorFavorito}</p>
+                <p className="text-sm text-slate-200">{sheet.sobreMi.colorFavorito}</p>
               </div>
             )}
             {sheet.sobreMi.generoMusical && (
               <div className="text-center px-2">
                 <Music className="h-4 w-4 mx-auto mb-1" style={{ color: c }} />
                 <p className="text-[9px] font-mono uppercase text-slate-500 mb-1">Música</p>
-                <p className="text-[10px] text-slate-200 leading-snug">{sheet.sobreMi.generoMusical}</p>
+                <p className="text-sm text-slate-200 leading-snug">{sheet.sobreMi.generoMusical}</p>
               </div>
             )}
             {sheet.sobreMi.generoTvSerie && (
               <div className="text-center px-2">
                 <Tv className="h-4 w-4 mx-auto mb-1" style={{ color: c }} />
                 <p className="text-[9px] font-mono uppercase text-slate-500 mb-1">Series</p>
-                <p className="text-[10px] text-slate-200 leading-snug">{sheet.sobreMi.generoTvSerie}</p>
+                <p className="text-sm text-slate-200 leading-snug">{sheet.sobreMi.generoTvSerie}</p>
               </div>
             )}
             {sheet.sobreMi.comidaFavorita && (
               <div className="text-center px-2">
                 <Utensils className="h-4 w-4 mx-auto mb-1" style={{ color: c }} />
                 <p className="text-[9px] font-mono uppercase text-slate-500 mb-1">Comida</p>
-                <p className="text-[10px] text-slate-200">{sheet.sobreMi.comidaFavorita}</p>
+                <p className="text-sm text-slate-200">{sheet.sobreMi.comidaFavorita}</p>
               </div>
             )}
             {sheet.sobreMi.fraseCaracteriza && (
               <div className="text-center px-2">
                 <MessageCircle className="h-4 w-4 mx-auto mb-1" style={{ color: c }} />
                 <p className="text-[9px] font-mono uppercase text-slate-500 mb-1">Frase</p>
-                <p className="text-[10px] text-slate-200 italic">&ldquo;{sheet.sobreMi.fraseCaracteriza}&rdquo;</p>
+                <p className="text-sm text-slate-200 italic">&ldquo;{sheet.sobreMi.fraseCaracteriza}&rdquo;</p>
               </div>
             )}
             {sheet.sobreMi.lugarDeseado && (
               <div className="text-center px-2">
                 <Globe className="h-4 w-4 mx-auto mb-1" style={{ color: c }} />
                 <p className="text-[9px] font-mono uppercase text-slate-500 mb-1">Lugar soñado</p>
-                <p className="text-[10px] text-slate-200">{sheet.sobreMi.lugarDeseado}</p>
+                <p className="text-sm text-slate-200">{sheet.sobreMi.lugarDeseado}</p>
               </div>
             )}
           </div>

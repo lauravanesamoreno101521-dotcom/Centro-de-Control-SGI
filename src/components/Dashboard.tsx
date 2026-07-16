@@ -175,9 +175,6 @@ export default function Dashboard({
               ))}
             </div>
           </div>
-          <span className="text-xs text-slate-500 font-mono">
-            Selecciona un procesador para ver y ajustar parámetros
-          </span>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="emotions-bento-grid">

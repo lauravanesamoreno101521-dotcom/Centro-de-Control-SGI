@@ -237,7 +237,7 @@ export const initialProfiles: EmotionalProfile[] = [
       animated: "/images/emotions/png-tristeza.png",
       childhood: "/images/emotions/calma/infancia.png",
       team: "/images/emotions/calma/familia.jpg",
-      labels: { childhood: "Mi infancia", team: "Mi familia" },
+      labels: { childhood: "Mi infancia", team: "Mi familia", mascotas: "Mi pequeña" },
     },
     logs: [
       {
@@ -475,11 +475,11 @@ export const initialProfiles: EmotionalProfile[] = [
       ],
       valores: ["ORDEN", "PRECISIÓN", "EXIGENCIA", "INTEGRIDAD"],
       sobreMi: {
-        generoMusical: "Salsa y vallenato romántico",
+        generoMusical: "Salsa y vallenato",
         comidaFavorita: "Pastas",
-        colorFavorito: "Rosado pastel",
+        colorFavorito: "Rosado",
         fraseCaracteriza: "Sagrado rostro / Ni negros son tus ojos",
-        generoTvSerie: "Series coreanas",
+        generoTvSerie: "Series coreanas, Ralph el Demoledor",
       },
       footerMessage:
         "EN EL SGI, EL DESAGRADO MANTIENE LOS ESTÁNDARES: SIN ATAJOS, SIN EXCUSAS.",
